@@ -1,0 +1,98 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Positions</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style>
+      .main-element {
+
+      	/*position:static; *//*default*/
+      	/*position:relative;*/ /*its going to effect the left right bottom top*/
+      	position:fixed;
+        left: 20px;
+        /*bottom: 10px;*/
+        top:50px;
+        background-color:skyblue;
+       padding: 10px;
+
+}
+
+        .sibling-element 
+        {
+            padding: 10px;
+           background-color: #f2f2f2;
+        }
+
+/*.parent-element
+{
+	height:500px;
+}*/
+      </style>
+
+
+
+</head>
+<body>
+
+	<div class="parent-element">
+            <div class="sibling-element">
+                I'm the other sibling element.
+            </div>
+            
+            <div class="main-element">
+                All eyes on me. I am the main element.
+            </div>
+            
+            <div class="sibling-element">
+                I'm the other sibling element.
+            </div>
+        </div>
+
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Positions</title>
+
+	<h1>Position : Absolute</h1>
+
+	<style>
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 265px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: absolute; /*if parent element is not in relative the absolute will work on*/
+  top: 0spx;
+  right: 50px;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>position: Absolute</h2>
+
+
+
+<div class="relative"><img src="https://images.unsplash.com/photo-1638263086646-ef4566e1a511?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80">
+  <div class="absolute"><img src="https://images.unsplash.com/photo-1637978235036-36fd757ce0ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80"></div>
+</div>
+
+
+</body>
+</html>

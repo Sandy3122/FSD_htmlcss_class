@@ -1,0 +1,42 @@
+body{
+	 align-content: center;
+	background-image:url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	}
+
+fieldset{
+	border-radius: 40px;
+}
+legend{
+	color: darkorange;
+}
+
+input[type=text],input[type=number],input[type=email],input[type=link],input[type=radio]
+{
+	border-sizing: border-box;
+	border-radius: 10px;
+	color: darkred;
+	background-color:lightblue;
+}
+
+input[type=checkbox]
+{
+	color:;
+}
+textarea{
+	width: 40 px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 10px;
+	background-color: lightyellow;
+}
+
+label{
+	color: ghostwhite;
+
+
+}
+
+

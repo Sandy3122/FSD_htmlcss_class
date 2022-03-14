@@ -1,0 +1,32 @@
+.a{
+	list-style-type:lower-alpha;
+	list-style-position:inside;
+	list-style-image: url("https://images.unsplash.com/photo-1638035966446-b2954fdf3525?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=790&q=80");    
+ }
+
+.b{
+	list-style-type: upper-alpha;
+	list-style-position:outside;/*("it is default")*/
+}
+
+.c{
+	list-style: lower-roman inside url(https://images.unsplash.com/photo-1538998073820-4dfa76300194?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    
+}
+
+.aa{
+	list-style: lower-roman;
+
+
+}
+
+.bb{
+    list-style:circle;
+    list-style-position:;
+
+}
+
+.cc{
+
+
+}

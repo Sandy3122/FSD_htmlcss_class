@@ -1,0 +1,40 @@
+body {
+  background-color: #16181D;
+ 
+  font-family: Inconsolata, monospace;
+  color: #F1F1F1;
+  text-align: center;
+  height: 100vh;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img
+{
+  width:200px;
+  transition:8s; /*it works on how smooth transform is done*/
+  /*transition-timing-function: 10s ease;*/
+
+   /*ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default) */   
+  /*ease-out: specifies a transition effect with a slow end;*/
+
+  transition-timing-function: ease-in;
+  transition-delay:10s;
+}
+
+.img-container:hover
+{
+  /*transform:rotateX(80deg);*/
+ /* transform:rotateY(80deg);*/
+
+  /*transform:skew(10deg 50deg);*/      /*(Xvalue Y value)*/
+  transform:scale(2.0);         /*takes both X value And Y value*/
+  /*transform:scaleY(2.0);*/
+  /*transform:scaleX(2.0);*/
+  /*transform:scaleZ(80.0);*/
+
+
+}

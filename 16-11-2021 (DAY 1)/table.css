@@ -1,0 +1,63 @@
+body
+{
+	background: url("https://images.unsplash.com/photo-1635931907849-f2109d3aecf3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position:center;
+
+ }
+
+h1 {text-align:center; color:white;}
+
+.a {border-radius:20px;
+	width:600px; }
+
+legend{color:whitesmoke; text-align:center;}
+
+
+.b {color:black;
+	border-radius:20px;
+	width:600px; }
+
+label
+{
+	color:white;
+  float:left;
+}
+
+input[type=text] , input[type=email],input[type=date], input[type=mobile],input[type=number],input[list=country],input[list=branch],input[list=Qc]
+{
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color:transparent;
+  color:#a89e83;
+
+}
+
+textarea 
+{
+  width: 40%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color:transparent;
+  resize: none;
+}
+
+
+
+input[type=submit]
+{
+  background-color:palegoldenrod;
+  border: none;
+  color: black;
+  border-radius:10px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
